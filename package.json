@@ -1,0 +1,26 @@
+{
+  "name": "todomvc.arkansas",
+  "version": "0.1.0",
+  "author": {
+    "name": "Markus Ast",
+    "email": "npm.m@rkusa.st"
+  },
+  "private": "true",
+  "homepage": "https://github.com/rkusa/todomvc.arkansas#5d8c991",
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "arkansas": "git://github.com/rkusa/Arkansas.git",
+    "nano": "3.3.x",
+    "less-middleware": "*"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/rkusa/todomvc.arkansas.git"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  }
+}

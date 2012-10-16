@@ -1,0 +1,9 @@
+{
+  "_id": "_design/Todo",
+  "language": "javascript",
+  "views": {
+    "all": {
+      "map": "function(doc) { if(doc.type == 'Todo') emit(null, doc);  }"
+    }
+  }
+}
