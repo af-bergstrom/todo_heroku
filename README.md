@@ -2,7 +2,7 @@
 
 ### From your Terminal enter:
 
-* $ git clone git://github.com/IMRasmus/todo_heroku.git
+* $ git clone git://github.com/rbsthlm/todo_heroku.git
 * $ cd todo_heroku 
 * $ heroku create
 * $ heroku config:add NODE_ENV=production
